@@ -33,5 +33,5 @@ jobs:
           target: default
           arch: ${{ steps.avd-arch.outputs.arch }}
           profile: Nexus 6
-          script: ./gradlew assembleNightly
+          script: ./gradlew assemble
 
